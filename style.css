@@ -1,0 +1,44 @@
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 540px;
+    width: 540px;
+}
+.grid div{
+    width: 60px;
+    height: 60px;
+}
+.endind-block{
+    background-image: url(./meta.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.start-block{
+    background-color: blue;
+}
+.frog{
+    background-image: url(./frog.png);
+    background-size: cover;
+    background-position: center;
+}
+.c1{
+    background-image: url(./coche.png);
+    background-size: cover;
+    background-position: center;
+}
+.c2, .c3{
+    background-image: url(./road.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.l1, .l2, .l3{
+    background-image: url(./tronco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.l4, .l5{
+    background-color: lightblue;
+}
