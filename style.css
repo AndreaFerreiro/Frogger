@@ -8,6 +8,7 @@
 .grid div{
     width: 60px;
     height: 60px;
+    background-color: green;
 }
 .endind-block{
     background-image: url(./meta.jpeg);
@@ -16,11 +17,6 @@
 }
 .start-block{
     background-color: blue;
-}
-.frog{
-    background-image: url(./frog.png);
-    background-size: cover;
-    background-position: center;
 }
 .c1{
     background-image: url(./coche.png);
@@ -40,5 +36,10 @@
     background-position: center;
 }
 .l4, .l5{
-    background-color: lightblue;
+    background-color: blue;
+}
+.frog{
+    background-image: url(./frog.png);
+    background-size: cover;
+    background-position: center;
 }
